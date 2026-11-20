@@ -7,3 +7,5 @@ TravelSplit V2.4 PWA 修正版
 注意：GitHub Pages 上的個人帳目資料存在手機瀏覽器 localStorage，更新程式不應清除網站資料；重要資料請先匯出 JSON。
 
 V2.4.1：新增支出儲存後停留原頁面，清空表單並顯示成功訊息；JSON 備份仍需手動操作。
+
+V2.4.2：匯入舊 JSON 時，若手機現有同 ID、同內容支出已結匯，保留其 cost/rate/shares；保留缺漏的旅程統一匯率。若兩邊都無結匯結果，無法從 PDF 自動重建。更新前請備份 JSON。
